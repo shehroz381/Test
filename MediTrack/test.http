@@ -1,0 +1,9 @@
+POST http://localhost:5000/bookings
+Content-Type: application/json
+
+{
+    "patient_id": 101,
+    "doctor_id": 202,
+    "appointment_datetime": "2026-04-15T10:30:00",
+    "notes": "Follow-up consultation"
+}
